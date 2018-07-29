@@ -42,4 +42,23 @@ client.setInterval(function() {
 }
 })
   
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '465851464741421071').setName("W");
+client.channels.find('id', '465851464741421071').setName("We");
+client.channels.find('id', '465851464741421071').setName("Wel");
+client.channels.find('id', '465851464741421071').setName("Welc");
+client.channels.find('id', '465851464741421071').setName("Welco");
+client.channels.find('id', '465851464741421071').setName("Welcom");
+client.channels.find('id', '465851464741421071').setName("Welcome");
+client.channels.find('id', '465851464741421071').setName("Welcome");
+client.channels.find('id', '465851464741421071').setName("Welcome");
+client.channels.find('id', '465851464741421071').setName("Welcome");
+client.channels.find('id', '465851464741421071').setName("Welcome");
+client.channels.find('id', '465851464741421071').setName("Welcome");
+client.channels.find('id', 'ا465851464741421071').setName("Welcome");
+client.channels.find('id', '465851464741421071').setName("Welcome");
+  }, 3000);
+});
+
 client.login(process.env.BOT_TOKEN);
